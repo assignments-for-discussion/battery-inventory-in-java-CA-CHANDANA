@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.Scanner;
+import java.lang.*;
+class Batterycharge
+{
+     public static void main(String[] args)
+    {
+       Scanner in = new Scanner(System.in);
+       double a,f=4,g=6,b,c,d,e;
+       a=((f/g)*11)/10;
+       b=((f/g)*12)/10 ;
+       c=((f/g)*13)/10; 
+       d=((f/g)*14)/10; 
+       e=((f/g)*10)/10;
+       System.out.println("Maximum Time To Full Charge (10%)  = "+a);
+       System.out.println("Maximum Time To Full Charge (20%)   = "+b);
+       System.out.println("Maximum Time To Full Charge (30%)   = "+c);
+       System.out.println("Maximum Time To Full Charge (40%)   = "+d);
+       System.out.println("Maximum Time To Full Charge (No)  = "+e);
+    }
+}
